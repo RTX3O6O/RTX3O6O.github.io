@@ -1,14 +1,35 @@
 /* CSS Document */
 h2 {
-  color: #565656;
+    color: #565656;
 }
-li {
-  color: #0404ba;
-  line-height: 1.5;
-  font-size: 16pt;
+.gm {
+	color: #0404ba;
 }
 
-/* Не по заданию ниже (Можно удалить) */
+.mm > li {
+    line-height: 1.6;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.cgm > li {
+	line-height: 1.5;
+	font-size: 16pt;
+}
+
+.cgm > li.bl {
+	color: black;
+	font-size: 20pt;
+}
+
+.mm > li.bl {
+	font-size: 17pt;
+	color: black;
+	font-weight: bold;
+}
+
+
+/* Не по заданию (Можно удалить) */
 .button {
     background-color: #4CAF50;
     border: none;
