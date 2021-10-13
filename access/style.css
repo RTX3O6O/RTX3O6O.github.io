@@ -1,0 +1,17 @@
+.texts1 {
+	color: white;
+	font-size: 25pt /* Моё имя */
+}
+.texts2 {
+	color: white;
+	font-size: 22pt /* Ссылки на практику ;D */
+}
+
+a {
+	color: white; /* Ccылка подсвечивается белым */
+}
+IMG.fig {
+    float: left; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+}
