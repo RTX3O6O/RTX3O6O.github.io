@@ -4,21 +4,27 @@
 }
 .texts2 {
 	color: white;
-	font-size: 22pt /* Ссылки на практику ;D */
+	font-size: 20pt /* Ссылки на практику ;D */
 }
 
 a {
 	color: white; /* Ccылка подсвечивается белым */
 }
+
+/* Xasya */
 IMG.fig {
 	float: left; /* Обтекание картинки по левому краю */
 	padding-left: 10px; /* Отступ слева */
 	padding-bottom: 10px; /* Отступ снизу */
 }
+
+/* Hatsushimo <3 */
 IMG.Hatsushimo_Nya {
-	position: absolute; /* Фиксированная позиция */
-	right: 150px; /* Справа отступ */
-	top: 40px; /* Сверху отступ */
+	position: fixed; /* Фиксированная позиция */
+	height: auto; /* Высота изображения */
+	width: 500; /* Ширина изображения */
+	left: 40%; /* Справа отступ */
+	top: 30px; /* Сверху отступ */
 }
 
 /* Тут будут прописаны стили для разных экранов */
@@ -27,84 +33,123 @@ IMG.Hatsushimo_Nya {
 blockquote{margin:10px 10px 10px 35px;}
 
 
-/* Custom 2048 px */
-@media only screen and (max-width : 2048px) {
-
-IMG.Hatsushimo_Nya {
-	position: absolute; /* Фиксированная позиция */
-	height: auto;
-	width: 500px;
-	right: 280px;
-	top: 30px;
-}
-}
-
-
-/* Custom 1366px */
-@media only screen and (max-width : 1366px) {
-
-IMG.Hatsushimo_Nya {
-	position: absolute; /* Фиксированная позиция */
-	height: auto;
-	width: 370px;
-	right: 180px;
-	top: 30px;
-}
-}
-
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+/* Custom 2560px */
+@media only screen and (max-width : 2560px) {
   .content{max-width: none; width: 100%;}
   .sidebar1{max-width: none; width: 100%;}
   blockquote{margin:10px;}
 
 	IMG.Hatsushimo_Nya {
-		position: absolute; /* Фиксированная позиция */
-		right: 0px; /* Справа отступ */
+		position: fixed; /* Фиксированная позиция */
+		height: auto; /* Высота изображения */
+		width: 500; /* Ширина изображения */
+		left: 30%; /* Справа отступ */
+		top: 30px; /* Сверху отступ */
+}
+}
+
+/* Custom 1920px */
+@media only screen and (max-width : 1920px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
+
+	IMG.Hatsushimo_Nya {
+		position: fixed; /* Фиксированная позиция */
+		height: auto; /* Высота изображения */
+		width: 600; /* Ширина изображения */
+		left: 40%; /* Справа отступ */
+		top: 30px; /* Сверху отступ */
+}
+}
+
+/* Custom 1366px */
+@media only screen and (max-width : 1366px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
+
+	IMG.Hatsushimo_Nya {
+		position: fixed; /* Фиксированная позиция */
+		height: auto; /* Высота изображения */
+		width: 500; /* Ширина изображения */
+		left: 40%; /* Справа отступ */
 		top: 30px; /* Сверху отступ */
 }
 }
 
 
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+/* Сustom 1280px */
+@media only screen and (max-width : 1280px) {
   .content{max-width: none; width: 100%;}
   .sidebar1{max-width: none; width: 100%;}
   blockquote{margin:10px;}
 
 IMG.Hatsushimo_Nya {
-		position: absolute;
-		width: 150px;
+	position: fixed;
+	height: auto;
+	width: 370px;
+	left: 40%;
+	top: 30px;
 }
 }
 
 
-/* Custom 540px */
-@media only screen and (max-width : 540px) {
+
+/* Custom 1024px */
+@media only screen and (max-width : 1024px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
 
 IMG.Hatsushimo_Nya {
-	position: fixed; /* Фиксированная позиция */
+	position: fixed;
 	height: auto;
 	width: 350px;
-	left: 250px;
-	top: 350px;
+	left: 45%;
+	top: 100px;
 }
 }
 
 
-/* Extra Small Devices, Phones */
+/* Custom 720px */
+@media only screen and (max-width : 720px) {
+
+IMG.Hatsushimo_Nya {
+	position: fixed;
+	height: auto;
+	width: 350px;
+	left: 40%;
+	top: 166px;
+}
+}
+
+
+/* Custom 640px */
+@media only screen and (max-width : 640px) {
+
+IMG.Hatsushimo_Nya {
+	position: fixed;
+	height: auto;
+	width: 300px;
+	left: 30%;
+	top: 100px;
+}
+}
+
+
+/* Custom 480px */
 @media only screen and (max-width : 480px) {
   .content{max-width: none; width: 100%;}
   .sidebar1{max-width: none; width: 100%;}
   blockquote{margin:10px;}
 
 IMG.Hatsushimo_Nya {
+	position: fixed;
 	height: auto;
 	width: 250px;
-	position: relative;
-	left: 200px;
+	left: 35%;
+	top: 210px;
 }
 }
 
@@ -113,11 +158,11 @@ IMG.Hatsushimo_Nya {
 @media only screen and (max-width : 425px) {
 
 IMG.Hatsushimo_Nya {
-	position: fixed; /* Фиксированная позиция */
+	position: fixed;
 	height: auto;
 	width: 200px;
-	left: 250px;
-	top: 330px;
+	left: 35%;
+	top: 210px;
 }
 }
 
@@ -127,23 +172,25 @@ IMG.Hatsushimo_Nya {
 @media only screen and (max-width : 375px) {
 
 IMG.Hatsushimo_Nya {
-	position: fixed; /* Фиксированная позиция */
+	position: fixed;
 	height: auto;
 	width: 150px;
-	left: 220px;
-	top: 385px;
+	left: 35%;
+	top: 205px;
 }
 }
 
 
-/* Custom, iPhone Retina */
+/* Custom 320px */
 @media only screen and (max-width : 320px) {
 
 IMG.Hatsushimo_Nya {
-	position: fixed; /* Фиксированная позиция */
+	position: fixed;
 	height: auto;
 	width: 150px;
-	left: 150px;
-	top: 385px;
+	left: 100px;
+	top: 200px;
 }
 }
+
+/* Конец размеров изображений xD */

@@ -1547,7 +1547,7 @@ padding: 0 !important;
 
 .theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
     background-color: rgba(255,255,255,.15);
-}   
+}
 
 .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
     background-color: rgba(255,255,255,.15);
@@ -2253,4 +2253,34 @@ padding: 0 !important;
 
 .headerTop-2y3V6H {
     background-color: transparent !important;
+}
+
+/* sr.dv.m */
+
+.focusLock-Ns3yie, .root-1gCeng {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.emptyCard-1RJw8n {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.itemFilled-3llgIC {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.item-26Dhrx[aria-checked=true] {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.connection-1fbD7X {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.accountList-33MS45 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.connectionHeader-2MDqhu {
+    background: rgba(0, 0, 0, 0.3);
 }
