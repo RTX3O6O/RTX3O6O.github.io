@@ -39,12 +39,12 @@ blockquote{margin:10px 10px 10px 35px;}
   .sidebar1{max-width: none; width: 100%;}
   blockquote{margin:10px;}
 
-	IMG.Hatsushimo_Nya {
-		position: fixed; /* Фиксированная позиция */
-		height: auto; /* Высота изображения */
-		width: 500; /* Ширина изображения */
-		left: 30%; /* Справа отступ */
-		top: 30px; /* Сверху отступ */
+IMG.Hatsushimo_Nya {
+	position: fixed; /* Фиксированная позиция */
+	height: auto; /* Высота изображения */
+	width: 500; /* Ширина изображения */
+	left: 30%; /* Справа отступ */
+	top: 30px; /* Сверху отступ */
 }
 }
 
@@ -54,12 +54,12 @@ blockquote{margin:10px 10px 10px 35px;}
   .sidebar1{max-width: none; width: 100%;}
   blockquote{margin:10px;}
 
-	IMG.Hatsushimo_Nya {
-		position: fixed; /* Фиксированная позиция */
-		height: auto; /* Высота изображения */
-		width: 600; /* Ширина изображения */
-		left: 40%; /* Справа отступ */
-		top: 30px; /* Сверху отступ */
+IMG.Hatsushimo_Nya {
+	position: fixed; /* Фиксированная позиция */
+	height: auto; /* Высота изображения */
+	width: 600; /* Ширина изображения */
+	left: 40%; /* Справа отступ */
+	top: 30px; /* Сверху отступ */
 }
 }
 
@@ -69,12 +69,12 @@ blockquote{margin:10px 10px 10px 35px;}
   .sidebar1{max-width: none; width: 100%;}
   blockquote{margin:10px;}
 
-	IMG.Hatsushimo_Nya {
-		position: fixed; /* Фиксированная позиция */
-		height: auto; /* Высота изображения */
-		width: 500; /* Ширина изображения */
-		left: 40%; /* Справа отступ */
-		top: 30px; /* Сверху отступ */
+IMG.Hatsushimo_Nya {
+	position: fixed; /* Фиксированная позиция */
+	height: auto; /* Высота изображения */
+	width: 500; /* Ширина изображения */
+	left: 40%; /* Справа отступ */
+	top: 30px; /* Сверху отступ */
 }
 }
 
