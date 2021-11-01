@@ -16,7 +16,7 @@ IMG.fig {
     padding-bottom: 10px; /* Отступ снизу */
 }
 IMG.Hatsushimo_Nya {
-		position: absolute; /* Фиксированная позиция */
-		right: 150px; /* Справа отступ */
-		top: 40px; /* Сверху отступ */
+    position: absolute; /* Фиксированная позиция */
+    right: 150px; /* Справа отступ */
+    top: 40px; /* Сверху отступ */
 }
