@@ -1,13 +1,3 @@
-/* otherlink */
-
-a[href^="http"]::before{
-}
-li {
-  margin-bottom: .5rem;
-}
-
-/* End */
-
 .texts1 {
 	color: white;
 	font-size: 25pt /* Моё */
@@ -203,4 +193,4 @@ IMG.Hatsushimo_Nya {
 }
 }
 
-/* Конец размеров изображений xD */
+/* Конец xD */
