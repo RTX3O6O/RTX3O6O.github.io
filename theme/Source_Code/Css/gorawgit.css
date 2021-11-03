@@ -2285,7 +2285,9 @@ padding: 0 !important;
     background-size: var(--friends-icon-zoom) !important;
     border-radius: 100%;
 }
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+
+.homeIcon-AaowEC {
+    background-color: transparent;
     color: transparent;
 }
 
