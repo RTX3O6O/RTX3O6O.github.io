@@ -1,4 +1,4 @@
-/**
+/*
  * @name Chika vs bedrock
  * @author Xasya
  * @version ersion
@@ -14,7 +14,7 @@
     --friends-icon: url(https://xasya.github.io/theme/upd/Chika%20vs%20bedrock/Fr_Ico.jpg);
     --friends-icon-position: top right;
     --friends-icon-zoom: 180%;
-    --main-color: rgb(67, 181, 129); 
+    --main-color: rgb(67, 181, 129);
     --main-transparency: rgba(0, 0, 0, 0.76);
     --unread-server-animation: rainbow;
     --hover-list-bg-color: rgba(255,255,255, .15);
