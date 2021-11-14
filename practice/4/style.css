@@ -9,4 +9,7 @@ html, body {
 .tx {
     color: white;
     font-size: 16pt;
+    position: absolute;
+    top: 50px;
+    left: 40px;
 }
